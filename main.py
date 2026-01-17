@@ -4,7 +4,7 @@ import json
 import time
 
 # --- CẤU HÌNH BẢO MẬT (Lấy từ "Két sắt" của GitHub) ---
-YOUTUBE_API_KEY = os.environ.get("AIzaSyAueu53W-r0VWcYJwYrSSboOKuWYQfLn34") 
+YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY") 
 SUPABASE_KEY = os.environ.get("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5saXJwZGJydWFtYmhramp1ZG9hIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njg1OTc3NjIsImV4cCI6MjA4NDE3Mzc2Mn0.bR3IodMstSurbxMBjJj1mZmJrD7bEdrwZU2ejhfGDLA")
 SUPABASE_URL = "https://nlirpdbruambhkjjudoa.supabase.co" # URL này để công khai được
 PMC_CHANNEL_ID = "UCGRIV5jOtKyAibhjBdIndZQ"
