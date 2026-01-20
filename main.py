@@ -2,15 +2,13 @@ import os
 import requests
 import time
 from datetime import datetime
-from bs4 import BeautifulSoup # Thư viện mới để đọc web
 
 # --- LẤY KEY TỪ BIẾN MÔI TRƯỜNG (BẢO MẬT) ---
 # Trên GitHub, chúng ta sẽ cấu hình các biến này trong phần Settings
-YOUTUBE_API_KEY = os.environ.get("AIzaSyAueu53W-r0VWcYJwYrSSboOKuWYQfLn34") 
+YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY") 
 SUPABASE_KEY = os.environ.get("SUPABASE_KEY")
 SUPABASE_URL = "https://nlirpdbruambhkjjudoa.supabase.co"
 PMC_CHANNEL_ID = "UCGRIV5jOtKyAibhjBdIndZQ"
-PMC_SPOTIFY_ID = "4bOdW378KRs2Efn1CNWJgQ" # ID Spotify của Phương Mỹ Chi
 
 # Danh sách Video cần theo dõi
 TARGET_VIDEO_IDS = [
